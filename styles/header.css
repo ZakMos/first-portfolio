@@ -1,0 +1,53 @@
+.site-header {
+  background: url(../images/header02.png) 0 0 no-repeat;
+  background-size: 100vw 21.5vw, 100%;
+  padding: 15% 0 5%;
+  position: relative;
+}
+
+.site-header h1 {
+  font-family: 'Shojumaru', cursive;
+  font-weight: normal;
+  font-size: 6vw;
+  position: absolute;
+  top: 1%;
+  left: 15%;
+  color: white;
+}
+
+.site-navigation ul {
+  text-align: center;
+}
+
+.site-navigation ul li {
+  display: inline-block;
+  padding: 1.2%;
+  margin-right: 5%;
+  text-align: center;
+  font-size: 1.5em;
+  border-radius: 20px;
+  background: white;
+  font-weight: bold;
+  border: 6px solid #11B9FF;
+  text-shadow: 1px 1px #FFF, 1px -1px #FFF, -1px 1px #FFF, -1px -1px #FFF;
+}
+.site-navigation ul li:hover {
+  background: #FFF;
+  cursor: pointer;
+}
+
+.site-navigation a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: darkblue;
+}
+
+.site-navigation a:visited {
+  color: darkblue;
+}
+
+.site-navigation ul li.selected {
+
+  background-color: #79B9FF;
+  color: white;
+}

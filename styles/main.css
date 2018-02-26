@@ -1,7 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Shojumaru');
 @import "normalize.css";
+@import "header.css";
 
 
-.site-navigation li {
-  display: inline-block;
-  margin: auto;
+
+
+
+
+
+
+footer {
+    padding: 0 2.5%;
+    font-size: 16px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background:#6cf;
 }
