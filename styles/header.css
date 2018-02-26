@@ -1,18 +1,33 @@
 .site-header {
-  background: url(../images/header02.png) 0 0 no-repeat;
+  background: url(../images/header01.jpg) 0 0 no-repeat;
   background-size: 100vw 21.5vw, 100%;
-  padding: 15% 0 5%;
-  position: relative;
+  margin: 0;
+  padding-top: 22vh;
+  padding-bottom: 1vh;
 }
+
 
 .site-header h1 {
   font-family: 'Shojumaru', cursive;
   font-weight: normal;
-  font-size: 6vw;
-  position: absolute;
-  top: 1%;
-  left: 15%;
+  font-size: 3.5vw;
   color: white;
+  text-align: center;
+  padding-top: 0vh;
+  padding-bottom: 5vh;
+  margin-top: -25px;
+}
+
+
+.positioning-container {
+  position: relative;
+}
+
+.centered-child {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .site-navigation ul {

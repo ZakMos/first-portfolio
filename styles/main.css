@@ -2,11 +2,51 @@
 @import "normalize.css";
 @import "header.css";
 
+.section1-0 {
+  border: 2px solid black;
+  margin: 2vh;
+  width: 100%;
+}
+
+.section1-1 {
+  border: 2px solid black;
+  margin: 2vh;
+  float: left;
+  width: 45%;
+}
 
 
+.section1-2 {
+  border: 2px solid black;
+  float: left;
+  width: 45%
+}
 
+.section1-3 {
+  border: 2px solid black;
+  margin: 2vh 2vh 3vh 2vh;
+  width: 100%;
+}
 
+.col1-1, .col1-2, .col1-3 {
+  width: 30%;
+  float: left;
+  padding: 0 1.58%;
+  margin-bottom: 5vh;
+  border: 1px solid #000;
+}
 
+h2 {
+  color: white;
+  background: #000;
+  text-align: center;
+  padding: 0 0 1px 0;
+  margin: 0;
+}
+
+.group {
+  clear: both;
+}
 
 
 footer {
@@ -16,4 +56,5 @@ footer {
     bottom: 0;
     width: 100%;
     background:#6cf;
+    text-align: center;
 }
