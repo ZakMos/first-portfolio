@@ -1,40 +1,61 @@
-@import "reset.css";
+@import url('https://fonts.googleapis.com/css?family=Shojumaru');
+@import "normalize.css";
+@import "header.css";
 
-
-html {
-  font-size: 0.625em;
-}
-body, body * {
-  box-sizing: border-box;
-}
-
-body {
-  font-size: 1.6rem;
-}
-.wrapper {
-  margin: auto;
-  width: 90vw;
+.section1-0 {
+  border: 2px solid black;
+  margin-top: 2vh;
+  width: 100%;
+  height: 100%;
 }
 
-.site-header {
-  padding-top: 5%;
-  height: 100vh;
+.section1-1 {
+  border: 2px solid black;
+  margin: 2vh;
+  float: left;
+  width: 45%;
 }
 
-.main-title {
-  font-size: 3rem;
+
+.section1-2 {
+  border: 2px solid black;
+  float: right;
+  width: 35%
 }
 
-.site-navigation ul {
+.section1-3 {
+  border: 2px solid black;
+  margin: 2vh 2vh 3vh 2vh;
+  width: 100%;
+}
+
+.col1-1, .col1-2, .col1-3 {
+  width: 30%;
+  float: left;
+  padding: 0 1.58%;
+  margin-bottom: 5vh;
+  border: 1px solid #000;
+}
+
+h2 {
+  color: white;
+  background: #000;
+  text-align: center;
+  padding: 0 0 1px 0;
   margin: 0;
-  padding: 0;
-  list-style-type: none;
 }
 
-.site-navigation li {
-  display: inline-block;
-  border: 1px solid;
-  padding: 0.5em;
-  margin: 0 5%;
-  box-shadow: 5px 3px rgba(0, 0, 0, 0.5);
+.group {
+  clear: both;
+}
+
+
+footer {
+    padding: 0 2.5%;
+    font-size: 16px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background:#6cf;
+    text-align: center;
 }

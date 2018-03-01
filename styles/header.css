@@ -1,0 +1,68 @@
+.site-header {
+  background: url(../images/header01.jpg) 0 0 no-repeat;
+  background-size: 100vw 21.5vw, 100%;
+  margin: 0;
+  padding-top: 22vh;
+  padding-bottom: 1vh;
+}
+
+
+.site-header h1 {
+  font-family: 'Shojumaru', cursive;
+  font-weight: normal;
+  font-size: 3.5vw;
+  color: white;
+  text-align: center;
+  padding-top: 0vh;
+  padding-bottom: 5vh;
+  margin-top: -25px;
+}
+
+
+.positioning-container {
+  position: relative;
+}
+
+.centered-child {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.site-navigation ul {
+  text-align: center;
+}
+
+.site-navigation ul li {
+  display: inline-block;
+  padding: 1.2%;
+  margin-right: 5%;
+  text-align: center;
+  font-size: 1.5em;
+  border-radius: 20px;
+  background: white;
+  font-weight: bold;
+  border: 6px solid #11B9FF;
+  text-shadow: 1px 1px #FFF, 1px -1px #FFF, -1px 1px #FFF, -1px -1px #FFF;
+}
+.site-navigation ul li:hover {
+  background: #FFF;
+  cursor: pointer;
+}
+
+.site-navigation a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: darkblue;
+}
+
+.site-navigation a:visited {
+  color: darkblue;
+}
+
+.site-navigation ul li.selected {
+
+  background-color: #79B9FF;
+  color: white;
+}
