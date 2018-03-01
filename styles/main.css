@@ -104,6 +104,22 @@
 
 /*About Us =============================================================================================*/
 
+.heading2-2-0 {
+  color: white;
+  background: #0C374F;
+  text-align: center;
+  padding: 0 0 1px 0;
+  margin-top: 0;
+}
+
+.heading2-2-0:first-child {
+  margin-left: -1vh;
+}
+
+.section2-3 .heading2-2-0 {
+  margin-left: 0;
+}
+
 
 .section2-0 {
 background-image: url('../images/header03.png');
@@ -114,10 +130,25 @@ margin-top: -4.5vh  ;
 padding-top: 0;
 }
 
+.customer {
+  width: 13vw;
+  height: 14vh;
+}
+
+.customer1 {
+  width: 9vw;
+  height: 18vh;
+  padding-left: 4vw;
+  padding-top: 0vh;
+}
+
+.our-customer {
+  margin-bottom: 0vh;
+}
 .section2-2, .section2-3 {
   width: 46vw;
   float: left;
-  margin-top: 10vh;
+  margin-top: 7vh;
   margin-left: 5vh;
   border: 1px dotted #000;
   position: relative;
@@ -137,20 +168,15 @@ padding-top: 0;
   height: 50vh;
 }
 
-.heading2-2-0 {
-  color: white;
-  background: #0C374F;
-  text-align: center;
-  padding: 0 0 1px 0;
-  margin: 0;
-}
 
 .follow-us {
   font-family: 'Sacramento', cursive;
   font-size: 3em;
   text-align: center;
-  color: darkblue;
+  color: #203383;
   margin-bottom: 1vh;
+  margin-top: 3vh;
+  text-shadow: 1px 1px 1px;
 }
 .section2-4 li {
   display: inline-block;
@@ -172,6 +198,90 @@ padding-top: 0;
 
 #instgram-logo:hover, #twitter-logo:hover, #facebook-logo:hover {
   transform: scale(1.5);
+}
+
+/*Contact =============================================================================================*/
+
+.contact-image {
+  background: url('../images/header02.png') 0 0 no-repeat;
+  background-size: 100vw 21.5vw, 100%;
+  margin: 0;
+  padding-top: 22vh;
+  padding-bottom: 1vh;
+}
+
+.contact-details {
+  font-size: 2em;
+  text-align: left;
+  border: 1px solid black;
+  margin: -177px 500px 0 350px;
+  background: rgba(255, 255, 255, 0.5);
+  color: #0C395F;
+}
+
+.contact-details li {
+  list-style-type: none;
+}
+
+.container {
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  background: #0C395F;
+  color: white;
+
+}
+
+.section3-0 {
+  width: 100vw;
+  margin: 0;
+  position: relative;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+.section3-0 input {
+  width: 90%;
+  height: 5vh;
+}
+
+.col3 {
+  float: left;
+  width: 50%;
+  font-size: 1.5em;
+}
+
+.section3-3 {
+  width: 100vw;
+  position: relative;
+  padding-left: 1%;
+  padding-right: 1%;
+  margin-top: 1%;
+  font-size: 1.5em;
+}
+
+.section3-4 {
+  width: 100vw;
+  position: relative;
+  margin-left: 40%;
+  font-size: 1.5em;
+}
+
+.section3-4 input {
+color: #0C395F;
+font-weight: bold;
+}
+
+.submit {
+  width: 15%;
+  padding: 10px;
+
+}
+.submit:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  background: #0C395F;
+  color: white;
+  font-size: 1.7em;
+  cursor: pointer;
 }
 
 .footer {
