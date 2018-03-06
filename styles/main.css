@@ -1,40 +1,294 @@
-@import "reset.css";
+@import url('https://fonts.googleapis.com/css?family=Shojumaru|Sacramento');
+@import "normalize.css";
+@import "header.css";
 
 
-html {
-  font-size: 0.625em;
-}
-body, body * {
-  box-sizing: border-box;
+/*Index =============================================================================================*/
+
+.section1-0 {
+  border: 2px solid black;
+  margin: 1vh;
+  width: 97vw;
+  height: 58vh;
 }
 
-body {
-  font-size: 1.6rem;
-}
-.wrapper {
-  margin: auto;
-  width: 90vw;
-}
-
-.site-header {
-  padding-top: 5%;
-  height: 100vh;
-}
-
-.main-title {
-  font-size: 3rem;
+.section1-1 {
+  border: 2px dotted black;
+  margin: 2vh;
+  float: left;
+  width: 65vw;
+  position: relative;
+  font-size: 1.4em;
+  margin-top: 5vh;
+  background: #26B0F0;
+  opacity: 0.9;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  text-align: justify;
 }
 
-.site-navigation ul {
+.firstcharacter {
+  color: #903;
+  float: left;
+  font-family: Georgia;
+  font-size: 75px;
+  line-height: 60px;
+  padding-top: 4px;
+  padding-right: 8px;
+  padding-left: 3px;
+}
+
+.section1-2 {
+  float: right;
+  width: 28 vw;
+  position: relative;
+  margin-top: 2vh;
+}
+
+.section1-0::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+
+
+.section1-3 {
+  border: 2px solid black;
+  margin: 2vh 1vh 3vh 1vh;
+  width: 97vw;
+
+}
+
+.col1-1, .col1-2, .col1-3 {
+  width: 27vw;
+  float: left;
+  padding: 0 1.58%;
+  margin: 2vh;
+  border: 1px dotted #000;
+  position: relative;
+  background: #26B0F0;
+}
+
+.heading2-1-0 {
+  color: white;
+  background: #0C374F;
+  text-align: center;
+  padding: 0 0 1px 0;
+  margin: 0vh -1.6vw 0vh -1.6vw;
+}
+
+.section1-3::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.content {
+  min-height: calc(100vh - 70px);
+}
+
+#html-logo, #css-logo, #js-logo {
+  width: 55px;
+  height: 70px;
+  margin-left: 0vw;
+  margin-top: 0vh;
+  position: relative;
+  padding-top: 1px;
+  padding-right: 8px;
+  padding-left: 3px;
+  float: left;
+}
+
+
+
+/*About Us =============================================================================================*/
+
+.heading2-2-0 {
+  color: white;
+  background: #0C374F;
+  text-align: center;
+  padding: 0 0 1px 0;
+  margin-top: 0;
+}
+
+.heading2-2-0:first-child {
+  margin-left: -1vh;
+}
+
+.section2-3 .heading2-2-0 {
+  margin-left: 0;
+}
+
+
+.section2-0 {
+background-image: url('../images/header03.png');
+background-size: cover;
+width: 1520px;
+height: 400px;
+margin-top: -4.5vh  ;
+padding-top: 0;
+}
+
+.customer {
+  width: 13vw;
+  height: 14vh;
+}
+
+.customer1 {
+  width: 9vw;
+  height: 18vh;
+  padding-left: 4vw;
+  padding-top: 0vh;
+}
+
+.our-customer {
+  margin-bottom: 0vh;
+}
+.section2-2, .section2-3 {
+  width: 46vw;
+  float: left;
+  margin-top: 7vh;
+  margin-left: 5vh;
+  border: 1px dotted #000;
+  position: relative;
+  font-size: 1.5em;
+  background-image: none;
+  background-color: rgba(255, 255, 255, 0.5);
+  text-align: justify;
+}
+
+.section2-2 {
+  max-height: 45vh;
+  padding-left: 1vh;
+}
+
+#project01, #project02, #project03 {
+  width: 40vw;
+  height: 50vh;
+}
+
+
+.follow-us {
+  font-family: 'Sacramento', cursive;
+  font-size: 3em;
+  text-align: center;
+  color: #203383;
+  margin-bottom: 1vh;
+  margin-top: 3vh;
+  text-shadow: 1px 1px 1px;
+}
+.section2-4 li {
+  display: inline-block;
+  list-style-type: none;
+  width: 1vw;
+  padding-right: 7vw;
+}
+
+.section2-4 li:first-child {
+  margin-left: 35vw;
+}
+
+#instgram-logo, #twitter-logo, #facebook-logo {
+  width: 6vw;
+  height: 11vh;
   margin: 0;
-  padding: 0;
+  border-radius: 50%;
+}
+
+#instgram-logo:hover, #twitter-logo:hover, #facebook-logo:hover {
+  transform: scale(1.5);
+}
+
+/*Contact =============================================================================================*/
+
+.contact-image {
+  background: url('../images/header02.png') 0 0 no-repeat;
+  background-size: 100vw 21.5vw, 100%;
+  margin: 0;
+  padding-top: 22vh;
+  padding-bottom: 1vh;
+}
+
+.contact-details {
+  font-size: 2em;
+  text-align: left;
+  border: 1px solid black;
+  margin: -177px 500px 0 350px;
+  background: rgba(255, 255, 255, 0.5);
+  color: #0C395F;
+}
+
+.contact-details li {
   list-style-type: none;
 }
 
-.site-navigation li {
-  display: inline-block;
-  border: 1px solid;
-  padding: 0.5em;
-  margin: 0 5%;
-  box-shadow: 5px 3px rgba(0, 0, 0, 0.5);
+.container {
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  background: #0C395F;
+  color: white;
+
+}
+
+.section3-0 {
+  width: 100vw;
+  margin: 0;
+  position: relative;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+.section3-0 input {
+  width: 90%;
+  height: 5vh;
+}
+
+.col3 {
+  float: left;
+  width: 50%;
+  font-size: 1.5em;
+}
+
+.section3-3 {
+  width: 100vw;
+  position: relative;
+  padding-left: 1%;
+  padding-right: 1%;
+  margin-top: 1%;
+  font-size: 1.5em;
+}
+
+.section3-4 {
+  width: 100vw;
+  position: relative;
+  margin-left: 40%;
+  font-size: 1.5em;
+}
+
+.section3-4 input {
+color: #0C395F;
+font-weight: bold;
+}
+
+.submit {
+  width: 15%;
+  padding: 10px;
+
+}
+.submit:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  background: #0C395F;
+  color: white;
+  font-size: 1.7em;
+  cursor: pointer;
+}
+
+.footer {
+    position:relative;
+    font-size: 16px;
+    bottom: 0;
+    width: 100vw;
+    background:#6cf;
+    text-align: center;
 }
